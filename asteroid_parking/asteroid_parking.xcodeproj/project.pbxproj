@@ -1,0 +1,380 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 47;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4EA66F8A14523C6300BD6D8C /* gameSprites.png in Resources */ = {isa = PBXBuildFile; fileRef = 4EA66F8914523C6300BD6D8C /* gameSprites.png */; };
+		4EA66F9C14523FD100BD6D8C /* libXNI.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EA66F9B14523FD100BD6D8C /* libXNI.a */; };
+		4EC15D82144FA82A003059AC /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 4EC15D80144FA82A003059AC /* background.png */; };
+		7B8E3943144F11FF000CBB9C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B8E3942144F11FF000CBB9C /* UIKit.framework */; };
+		7B8E3945144F11FF000CBB9C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B8E3944144F11FF000CBB9C /* Foundation.framework */; };
+		7B8E3947144F11FF000CBB9C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B8E3946144F11FF000CBB9C /* CoreGraphics.framework */; };
+		7B8E394D144F11FF000CBB9C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7B8E394B144F11FF000CBB9C /* InfoPlist.strings */; };
+		7B8E394F144F11FF000CBB9C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B8E394E144F11FF000CBB9C /* main.m */; };
+		7B8E396F144F127B000CBB9C /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B8E3969144F127B000CBB9C /* AudioToolbox.framework */; };
+		7B8E3970144F127B000CBB9C /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B8E396A144F127B000CBB9C /* AVFoundation.framework */; };
+		7B8E3971144F127B000CBB9C /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B8E396B144F127B000CBB9C /* GameKit.framework */; };
+		7B8E3972144F127B000CBB9C /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B8E396C144F127B000CBB9C /* OpenAL.framework */; };
+		7B8E3973144F127B000CBB9C /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B8E396D144F127B000CBB9C /* OpenGLES.framework */; };
+		7B8E3974144F127B000CBB9C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B8E396E144F127B000CBB9C /* QuartzCore.framework */; };
+		7B8E3978144F1322000CBB9C /* MyGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B8E3977144F1322000CBB9C /* MyGame.m */; };
+		954CE33B217A2ED3003F74E8 /* asteroid.png in Resources */ = {isa = PBXBuildFile; fileRef = 954CE33A217A2ED3003F74E8 /* asteroid.png */; };
+		954CE33D217A302D003F74E8 /* astronaut.png in Resources */ = {isa = PBXBuildFile; fileRef = 954CE33C217A302C003F74E8 /* astronaut.png */; };
+		954CE33F217A3035003F74E8 /* control_arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 954CE33E217A3035003F74E8 /* control_arrow.png */; };
+		954CE341217A303B003F74E8 /* parking_spot.png in Resources */ = {isa = PBXBuildFile; fileRef = 954CE340217A303B003F74E8 /* parking_spot.png */; };
+		954CE343217A3042003F74E8 /* player_ship.png in Resources */ = {isa = PBXBuildFile; fileRef = 954CE342217A3041003F74E8 /* player_ship.png */; };
+		954CE345217A3047003F74E8 /* propulsion.png in Resources */ = {isa = PBXBuildFile; fileRef = 954CE344217A3047003F74E8 /* propulsion.png */; };
+		9557C9812178E7650061256E /* alien_ship.png in Resources */ = {isa = PBXBuildFile; fileRef = 9557C9802178E7650061256E /* alien_ship.png */; };
+		95F6A0E5218C7C4500FF7522 /* AnimatedSpriteFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 95F6A0E0218C7C4500FF7522 /* AnimatedSpriteFrame.m */; };
+		95F6A0E6218C7C4500FF7522 /* Sprite.m in Sources */ = {isa = PBXBuildFile; fileRef = 95F6A0E1218C7C4500FF7522 /* Sprite.m */; };
+		95F6A0E7218C7C4500FF7522 /* AnimatedSprite.m in Sources */ = {isa = PBXBuildFile; fileRef = 95F6A0E2218C7C4500FF7522 /* AnimatedSprite.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4EA66F8914523C6300BD6D8C /* gameSprites.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = gameSprites.png; path = Assets/gameSprites.png; sourceTree = "<group>"; };
+		4EA66F9B14523FD100BD6D8C /* libXNI.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libXNI.a; path = ../XNI/libXNI.a; sourceTree = "<group>"; };
+		4EC15D80144FA82A003059AC /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = background.png; path = Assets/background.png; sourceTree = "<group>"; };
+		7B8E393E144F11FF000CBB9C /* asteroid_parking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = asteroid_parking.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B8E3942144F11FF000CBB9C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7B8E3944144F11FF000CBB9C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7B8E3946144F11FF000CBB9C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7B8E394A144F11FF000CBB9C /* asteroid_parking-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "asteroid_parking-Info.plist"; sourceTree = "<group>"; };
+		7B8E394C144F11FF000CBB9C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7B8E394E144F11FF000CBB9C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7B8E3950144F11FF000CBB9C /* MyGame-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyGame-Prefix.pch"; sourceTree = "<group>"; };
+		7B8E3969144F127B000CBB9C /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		7B8E396A144F127B000CBB9C /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		7B8E396B144F127B000CBB9C /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+		7B8E396C144F127B000CBB9C /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = System/Library/Frameworks/OpenAL.framework; sourceTree = SDKROOT; };
+		7B8E396D144F127B000CBB9C /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		7B8E396E144F127B000CBB9C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		7B8E3976144F1322000CBB9C /* MyGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyGame.h; sourceTree = "<group>"; };
+		7B8E3977144F1322000CBB9C /* MyGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyGame.m; sourceTree = "<group>"; };
+		954CE33A217A2ED3003F74E8 /* asteroid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = asteroid.png; path = "../../../../Google Drive/Studij/3-letnik/TINR/projekt/ assets/ png/asteroid.png"; sourceTree = "<group>"; };
+		954CE33C217A302C003F74E8 /* astronaut.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = astronaut.png; path = "../../../../Google Drive/Studij/3-letnik/TINR/projekt/ assets/ png/astronaut.png"; sourceTree = "<group>"; };
+		954CE33E217A3035003F74E8 /* control_arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = control_arrow.png; path = "../../../../Google Drive/Studij/3-letnik/TINR/projekt/ assets/ png/control_arrow.png"; sourceTree = "<group>"; };
+		954CE340217A303B003F74E8 /* parking_spot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = parking_spot.png; path = "../../../../Google Drive/Studij/3-letnik/TINR/projekt/ assets/ png/parking_spot.png"; sourceTree = "<group>"; };
+		954CE342217A3041003F74E8 /* player_ship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = player_ship.png; path = "../../../../Google Drive/Studij/3-letnik/TINR/projekt/ assets/ png/player_ship.png"; sourceTree = "<group>"; };
+		954CE344217A3047003F74E8 /* propulsion.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = propulsion.png; path = "../../../../Google Drive/Studij/3-letnik/TINR/projekt/ assets/ png/propulsion.png"; sourceTree = "<group>"; };
+		9557C9802178E7650061256E /* alien_ship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = alien_ship.png; path = "../../../../Google Drive/Studij/3-letnik/TINR/projekt/ assets/ png/alien_ship.png"; sourceTree = "<group>"; };
+		95F6A0DF218C7C4500FF7522 /* Sprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sprite.h; sourceTree = "<group>"; };
+		95F6A0E0218C7C4500FF7522 /* AnimatedSpriteFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimatedSpriteFrame.m; sourceTree = "<group>"; };
+		95F6A0E1218C7C4500FF7522 /* Sprite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sprite.m; sourceTree = "<group>"; };
+		95F6A0E2218C7C4500FF7522 /* AnimatedSprite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimatedSprite.m; sourceTree = "<group>"; };
+		95F6A0E3218C7C4500FF7522 /* AnimatedSpriteFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimatedSpriteFrame.h; sourceTree = "<group>"; };
+		95F6A0E4218C7C4500FF7522 /* AnimatedSprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimatedSprite.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7B8E393B144F11FE000CBB9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EA66F9C14523FD100BD6D8C /* libXNI.a in Frameworks */,
+				7B8E396F144F127B000CBB9C /* AudioToolbox.framework in Frameworks */,
+				7B8E3970144F127B000CBB9C /* AVFoundation.framework in Frameworks */,
+				7B8E3971144F127B000CBB9C /* GameKit.framework in Frameworks */,
+				7B8E3972144F127B000CBB9C /* OpenAL.framework in Frameworks */,
+				7B8E3973144F127B000CBB9C /* OpenGLES.framework in Frameworks */,
+				7B8E3974144F127B000CBB9C /* QuartzCore.framework in Frameworks */,
+				7B8E3943144F11FF000CBB9C /* UIKit.framework in Frameworks */,
+				7B8E3945144F11FF000CBB9C /* Foundation.framework in Frameworks */,
+				7B8E3947144F11FF000CBB9C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4EC15D7E144FA814003059AC /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				9557C9802178E7650061256E /* alien_ship.png */,
+				954CE33A217A2ED3003F74E8 /* asteroid.png */,
+				954CE33C217A302C003F74E8 /* astronaut.png */,
+				4EC15D80144FA82A003059AC /* background.png */,
+				954CE33E217A3035003F74E8 /* control_arrow.png */,
+				4EA66F8914523C6300BD6D8C /* gameSprites.png */,
+				954CE340217A303B003F74E8 /* parking_spot.png */,
+				954CE342217A3041003F74E8 /* player_ship.png */,
+				954CE344217A3047003F74E8 /* propulsion.png */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		7B8E3933144F11FE000CBB9C = {
+			isa = PBXGroup;
+			children = (
+				7B8E3948144F11FF000CBB9C /* MyGame */,
+				7B8E3941144F11FF000CBB9C /* Frameworks */,
+				7B8E393F144F11FF000CBB9C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7B8E393F144F11FF000CBB9C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7B8E393E144F11FF000CBB9C /* asteroid_parking.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7B8E3941144F11FF000CBB9C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4EA66F9B14523FD100BD6D8C /* libXNI.a */,
+				7B8E3969144F127B000CBB9C /* AudioToolbox.framework */,
+				7B8E396A144F127B000CBB9C /* AVFoundation.framework */,
+				7B8E396B144F127B000CBB9C /* GameKit.framework */,
+				7B8E396C144F127B000CBB9C /* OpenAL.framework */,
+				7B8E396D144F127B000CBB9C /* OpenGLES.framework */,
+				7B8E396E144F127B000CBB9C /* QuartzCore.framework */,
+				7B8E3942144F11FF000CBB9C /* UIKit.framework */,
+				7B8E3944144F11FF000CBB9C /* Foundation.framework */,
+				7B8E3946144F11FF000CBB9C /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7B8E3948144F11FF000CBB9C /* MyGame */ = {
+			isa = PBXGroup;
+			children = (
+				4EC15D7E144FA814003059AC /* Assets */,
+				7B8E3975144F1286000CBB9C /* Classes */,
+				7B8E3949144F11FF000CBB9C /* Supporting Files */,
+			);
+			path = MyGame;
+			sourceTree = "<group>";
+		};
+		7B8E3949144F11FF000CBB9C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7B8E394A144F11FF000CBB9C /* asteroid_parking-Info.plist */,
+				7B8E394B144F11FF000CBB9C /* InfoPlist.strings */,
+				7B8E394E144F11FF000CBB9C /* main.m */,
+				7B8E3950144F11FF000CBB9C /* MyGame-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7B8E3975144F1286000CBB9C /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				95F6A0E4218C7C4500FF7522 /* AnimatedSprite.h */,
+				95F6A0E2218C7C4500FF7522 /* AnimatedSprite.m */,
+				95F6A0E3218C7C4500FF7522 /* AnimatedSpriteFrame.h */,
+				95F6A0E0218C7C4500FF7522 /* AnimatedSpriteFrame.m */,
+				95F6A0DF218C7C4500FF7522 /* Sprite.h */,
+				95F6A0E1218C7C4500FF7522 /* Sprite.m */,
+				7B8E3976144F1322000CBB9C /* MyGame.h */,
+				7B8E3977144F1322000CBB9C /* MyGame.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7B8E393D144F11FE000CBB9C /* asteroid_parking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B8E3964144F11FF000CBB9C /* Build configuration list for PBXNativeTarget "asteroid_parking" */;
+			buildPhases = (
+				7B8E393A144F11FE000CBB9C /* Sources */,
+				7B8E393B144F11FE000CBB9C /* Frameworks */,
+				7B8E393C144F11FE000CBB9C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = asteroid_parking;
+			productName = MyGame;
+			productReference = 7B8E393E144F11FF000CBB9C /* asteroid_parking.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7B8E3935144F11FE000CBB9C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+			};
+			buildConfigurationList = 7B8E3938144F11FE000CBB9C /* Build configuration list for PBXProject "asteroid_parking" */;
+			compatibilityVersion = "Xcode 6.3";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7B8E3933144F11FE000CBB9C;
+			productRefGroup = 7B8E393F144F11FF000CBB9C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7B8E393D144F11FE000CBB9C /* asteroid_parking */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7B8E393C144F11FE000CBB9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B8E394D144F11FF000CBB9C /* InfoPlist.strings in Resources */,
+				954CE33F217A3035003F74E8 /* control_arrow.png in Resources */,
+				954CE345217A3047003F74E8 /* propulsion.png in Resources */,
+				9557C9812178E7650061256E /* alien_ship.png in Resources */,
+				4EC15D82144FA82A003059AC /* background.png in Resources */,
+				954CE341217A303B003F74E8 /* parking_spot.png in Resources */,
+				954CE33D217A302D003F74E8 /* astronaut.png in Resources */,
+				954CE343217A3042003F74E8 /* player_ship.png in Resources */,
+				954CE33B217A2ED3003F74E8 /* asteroid.png in Resources */,
+				4EA66F8A14523C6300BD6D8C /* gameSprites.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7B8E393A144F11FE000CBB9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95F6A0E5218C7C4500FF7522 /* AnimatedSpriteFrame.m in Sources */,
+				7B8E394F144F11FF000CBB9C /* main.m in Sources */,
+				95F6A0E6218C7C4500FF7522 /* Sprite.m in Sources */,
+				95F6A0E7218C7C4500FF7522 /* AnimatedSprite.m in Sources */,
+				7B8E3978144F1322000CBB9C /* MyGame.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7B8E394B144F11FF000CBB9C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7B8E394C144F11FF000CBB9C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7B8E3962144F11FF000CBB9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7B8E3963144F11FF000CBB9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7B8E3965144F11FF000CBB9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyGame/asteroid_parking-Prefix.pch";
+				GCC_VERSION = "";
+				INFOPLIST_FILE = "MyGame/asteroid_parking-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LIBRARY_SEARCH_PATHS = "\"$(SRCROOT)/../XNI\"";
+				PRODUCT_BUNDLE_IDENTIFIER = "si.uni-lj.fri.zl8252.asteroid-parking";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "\"$(SRCROOT)/../XNI\"/**";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7B8E3966144F11FF000CBB9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyGame/asteroid_parking-Prefix.pch";
+				GCC_VERSION = "";
+				INFOPLIST_FILE = "MyGame/asteroid_parking-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LIBRARY_SEARCH_PATHS = "\"$(SRCROOT)/../XNI\"";
+				PRODUCT_BUNDLE_IDENTIFIER = "si.uni-lj.fri.zl8252.asteroid-parking";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "\"$(SRCROOT)/../XNI\"/**";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7B8E3938144F11FE000CBB9C /* Build configuration list for PBXProject "asteroid_parking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B8E3962144F11FF000CBB9C /* Debug */,
+				7B8E3963144F11FF000CBB9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B8E3964144F11FF000CBB9C /* Build configuration list for PBXNativeTarget "asteroid_parking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B8E3965144F11FF000CBB9C /* Debug */,
+				7B8E3966144F11FF000CBB9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7B8E3935144F11FE000CBB9C /* Project object */;
+}
