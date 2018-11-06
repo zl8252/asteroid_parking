@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 47;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
+		7BC91F131816FC78002A73B2 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BC91F121816FC78002A73B2 /* AVFoundation.framework */; };
+		7BC91F161816FC85002A73B2 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BC91F141816FC85002A73B2 /* GameKit.framework */; };
+		7BC91F171816FC85002A73B2 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BC91F151816FC85002A73B2 /* OpenAL.framework */; };
+		7BC91F191816FCE0002A73B2 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BC91F181816FCE0002A73B2 /* AudioToolbox.framework */; };
+		7BC91F1A1816FCFA002A73B2 /* libXNI.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B504BD49126F0E6F00ACAC3D /* libXNI.a */; };
+		9522B7192192165E006AF8E8 /* player_ship.png in Resources */ = {isa = PBXBuildFile; fileRef = 9522B7182192165E006AF8E8 /* player_ship.png */; };
+		B504BD48126F0E5C00ACAC3D /* XniArchitecture.m in Sources */ = {isa = PBXBuildFile; fileRef = B504BD47126F0E5C00ACAC3D /* XniArchitecture.m */; };
+		B504BD4C126F0E7F00ACAC3D /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B504BD4B126F0E7F00ACAC3D /* OpenGLES.framework */; };
+		B504BD4E126F0E7F00ACAC3D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B504BD4D126F0E7F00ACAC3D /* QuartzCore.framework */; };
+		B504BDA8126F180E00ACAC3D /* Level.m in Sources */ = {isa = PBXBuildFile; fileRef = B504BDA7126F180E00ACAC3D /* Level.m */; };
+		B504BDAB126F181E00ACAC3D /* Scene.m in Sources */ = {isa = PBXBuildFile; fileRef = B504BDAA126F181E00ACAC3D /* Scene.m */; };
+		B504BDAE126F18C900ACAC3D /* Level1.m in Sources */ = {isa = PBXBuildFile; fileRef = B504BDAD126F18C900ACAC3D /* Level1.m */; };
+		B504BDCF126F201400ACAC3D /* PlayerShip.m in Sources */ = {isa = PBXBuildFile; fileRef = B504BDCE126F201400ACAC3D /* PlayerShip.m */; };
+		B504BDD2126F201C00ACAC3D /* SceneObject2.m in Sources */ = {isa = PBXBuildFile; fileRef = B504BDD1126F201C00ACAC3D /* SceneObject2.m */; };
+		B504BDFD126F289F00ACAC3D /* Sprite.m in Sources */ = {isa = PBXBuildFile; fileRef = B504BDFC126F289F00ACAC3D /* Sprite.m */; };
+		B504BE01126F28B500ACAC3D /* GameRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = B504BE00126F28B500ACAC3D /* GameRenderer.m */; };
+		B5438D6B127075E400A1D71C /* Level2.m in Sources */ = {isa = PBXBuildFile; fileRef = B5438D6A127075E400A1D71C /* Level2.m */; };
+		B5438D83127083D100A1D71C /* TextureAtlas.png in Resources */ = {isa = PBXBuildFile; fileRef = B5438D82127083D100A1D71C /* TextureAtlas.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D6058910D05DD3D006BFB54 /* XniArchitecture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XniArchitecture.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765FC0DF74451002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Shared/main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* XniArchitecture_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XniArchitecture_Prefix.pch; sourceTree = "<group>"; };
+		7BC91F121816FC78002A73B2 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		7BC91F141816FC85002A73B2 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+		7BC91F151816FC85002A73B2 /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = System/Library/Frameworks/OpenAL.framework; sourceTree = SDKROOT; };
+		7BC91F181816FCE0002A73B2 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		8D1107310486CEB800E47090 /* XniArchitecture-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "XniArchitecture-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		9522B7182192165E006AF8E8 /* player_ship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = player_ship.png; sourceTree = "<group>"; };
+		B504BD46126F0E5C00ACAC3D /* XniArchitecture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XniArchitecture.h; sourceTree = "<group>"; };
+		B504BD47126F0E5C00ACAC3D /* XniArchitecture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XniArchitecture.m; sourceTree = "<group>"; };
+		B504BD49126F0E6F00ACAC3D /* libXNI.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libXNI.a; path = ../XNI/libXNI.a; sourceTree = SOURCE_ROOT; };
+		B504BD4B126F0E7F00ACAC3D /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		B504BD4D126F0E7F00ACAC3D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		B504BDA6126F180E00ACAC3D /* Level.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Level.h; sourceTree = "<group>"; };
+		B504BDA7126F180E00ACAC3D /* Level.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Level.m; sourceTree = "<group>"; };
+		B504BDA9126F181E00ACAC3D /* Scene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Scene.h; sourceTree = "<group>"; };
+		B504BDAA126F181E00ACAC3D /* Scene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Scene.m; sourceTree = "<group>"; };
+		B504BDAC126F18C900ACAC3D /* Level1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Level1.h; sourceTree = "<group>"; };
+		B504BDAD126F18C900ACAC3D /* Level1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Level1.m; sourceTree = "<group>"; };
+		B504BDC0126F1A1600ACAC3D /* Namespace.XniArchitecture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Namespace.XniArchitecture.h; sourceTree = "<group>"; };
+		B504BDC1126F1A6300ACAC3D /* Namespace.XniArchitecture.classes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Namespace.XniArchitecture.classes.h; sourceTree = "<group>"; };
+		B504BDCD126F201400ACAC3D /* PlayerShip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerShip.h; sourceTree = "<group>"; };
+		B504BDCE126F201400ACAC3D /* PlayerShip.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerShip.m; sourceTree = "<group>"; };
+		B504BDD0126F201C00ACAC3D /* SceneObject2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SceneObject2.h; sourceTree = "<group>"; };
+		B504BDD1126F201C00ACAC3D /* SceneObject2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SceneObject2.m; sourceTree = "<group>"; };
+		B504BDE4126F247100ACAC3D /* Position.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Position.h; sourceTree = "<group>"; };
+		B504BDFB126F289F00ACAC3D /* Sprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sprite.h; sourceTree = "<group>"; };
+		B504BDFC126F289F00ACAC3D /* Sprite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sprite.m; sourceTree = "<group>"; };
+		B504BDFF126F28B500ACAC3D /* GameRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameRenderer.h; sourceTree = "<group>"; };
+		B504BE00126F28B500ACAC3D /* GameRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameRenderer.m; sourceTree = "<group>"; };
+		B5438D69127075E400A1D71C /* Level2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Level2.h; sourceTree = "<group>"; };
+		B5438D6A127075E400A1D71C /* Level2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Level2.m; sourceTree = "<group>"; };
+		B5438D82127083D100A1D71C /* TextureAtlas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TextureAtlas.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BC91F1A1816FCFA002A73B2 /* libXNI.a in Frameworks */,
+				7BC91F191816FCE0002A73B2 /* AudioToolbox.framework in Frameworks */,
+				7BC91F161816FC85002A73B2 /* GameKit.framework in Frameworks */,
+				7BC91F171816FC85002A73B2 /* OpenAL.framework in Frameworks */,
+				7BC91F131816FC78002A73B2 /* AVFoundation.framework in Frameworks */,
+				B504BD4C126F0E7F00ACAC3D /* OpenGLES.framework in Frameworks */,
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
+				B504BD4E126F0E7F00ACAC3D /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* XniArchitecture.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		28EEBF621118D79A00187D67 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9522B7182192165E006AF8E8 /* player_ship.png */,
+				B5438D82127083D100A1D71C /* TextureAtlas.png */,
+				8D1107310486CEB800E47090 /* XniArchitecture-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				B504BD45126F0E4A00ACAC3D /* Classes */,
+				28EEBF621118D79A00187D67 /* Resources */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* XniArchitecture_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7BC91F181816FCE0002A73B2 /* AudioToolbox.framework */,
+				7BC91F141816FC85002A73B2 /* GameKit.framework */,
+				7BC91F151816FC85002A73B2 /* OpenAL.framework */,
+				7BC91F121816FC78002A73B2 /* AVFoundation.framework */,
+				B504BD49126F0E6F00ACAC3D /* libXNI.a */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
+				B504BD4B126F0E7F00ACAC3D /* OpenGLES.framework */,
+				B504BD4D126F0E7F00ACAC3D /* QuartzCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B504BD45126F0E4A00ACAC3D /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B504BDC1126F1A6300ACAC3D /* Namespace.XniArchitecture.classes.h */,
+				B504BDC0126F1A1600ACAC3D /* Namespace.XniArchitecture.h */,
+				B504BDFA126F288F00ACAC3D /* Graphics */,
+				B504BDCA126F1F7E00ACAC3D /* Scene */,
+				B504BD46126F0E5C00ACAC3D /* XniArchitecture.h */,
+				B504BD47126F0E5C00ACAC3D /* XniArchitecture.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		B504BDCA126F1F7E00ACAC3D /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				B504BDCC126F1FA000ACAC3D /* Objects */,
+				B504BDCB126F1F8B00ACAC3D /* Levels */,
+				B504BDA6126F180E00ACAC3D /* Level.h */,
+				B504BDA7126F180E00ACAC3D /* Level.m */,
+				B504BDA9126F181E00ACAC3D /* Scene.h */,
+				B504BDAA126F181E00ACAC3D /* Scene.m */,
+			);
+			name = Scene;
+			sourceTree = "<group>";
+		};
+		B504BDCB126F1F8B00ACAC3D /* Levels */ = {
+			isa = PBXGroup;
+			children = (
+				B504BDAC126F18C900ACAC3D /* Level1.h */,
+				B504BDAD126F18C900ACAC3D /* Level1.m */,
+				B5438D69127075E400A1D71C /* Level2.h */,
+				B5438D6A127075E400A1D71C /* Level2.m */,
+			);
+			name = Levels;
+			sourceTree = "<group>";
+		};
+		B504BDCC126F1FA000ACAC3D /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				B504BDE4126F247100ACAC3D /* Position.h */,
+				B504BDCD126F201400ACAC3D /* PlayerShip.h */,
+				B504BDCE126F201400ACAC3D /* PlayerShip.m */,
+				B504BDD0126F201C00ACAC3D /* SceneObject2.h */,
+				B504BDD1126F201C00ACAC3D /* SceneObject2.m */,
+			);
+			name = Objects;
+			sourceTree = "<group>";
+		};
+		B504BDFA126F288F00ACAC3D /* Graphics */ = {
+			isa = PBXGroup;
+			children = (
+				B504BDFB126F289F00ACAC3D /* Sprite.h */,
+				B504BDFC126F289F00ACAC3D /* Sprite.m */,
+				B504BDFF126F28B500ACAC3D /* GameRenderer.h */,
+				B504BE00126F28B500ACAC3D /* GameRenderer.m */,
+			);
+			name = Graphics;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* XniArchitecture */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "XniArchitecture" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XniArchitecture;
+			productName = XniTemplate;
+			productReference = 1D6058910D05DD3D006BFB54 /* XniArchitecture.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "XniArchitecture" */;
+			compatibilityVersion = "Xcode 6.3";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* XniArchitecture */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9522B7192192165E006AF8E8 /* player_ship.png in Resources */,
+				B5438D83127083D100A1D71C /* TextureAtlas.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				B504BD48126F0E5C00ACAC3D /* XniArchitecture.m in Sources */,
+				B504BDA8126F180E00ACAC3D /* Level.m in Sources */,
+				B504BDAB126F181E00ACAC3D /* Scene.m in Sources */,
+				B504BDAE126F18C900ACAC3D /* Level1.m in Sources */,
+				B504BDCF126F201400ACAC3D /* PlayerShip.m in Sources */,
+				B504BDD2126F201C00ACAC3D /* SceneObject2.m in Sources */,
+				B504BDFD126F289F00ACAC3D /* Sprite.m in Sources */,
+				B504BE01126F28B500ACAC3D /* GameRenderer.m in Sources */,
+				B5438D6B127075E400A1D71C /* Level2.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = XniArchitecture_Prefix.pch;
+				INFOPLIST_FILE = "XniArchitecture-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LIBRARY_SEARCH_PATHS = "\"$(SRCROOT)/../XNI\"";
+				PRODUCT_BUNDLE_IDENTIFIER = "si.uni-lj.fri.gameteam.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = XniArchitecture;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "\"$(SRCROOT)/../XNI\"/**";
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = XniArchitecture_Prefix.pch;
+				INFOPLIST_FILE = "XniArchitecture-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LIBRARY_SEARCH_PATHS = "\"$(SRCROOT)/../XNI\"";
+				PRODUCT_BUNDLE_IDENTIFIER = "si.uni-lj.fri.gameteam.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = XniArchitecture;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "\"$(SRCROOT)/../XNI\"/**";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "XniArchitecture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "XniArchitecture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
