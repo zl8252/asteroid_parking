@@ -22,6 +22,7 @@
 		7B8E3973144F127B000CBB9C /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B8E396D144F127B000CBB9C /* OpenGLES.framework */; };
 		7B8E3974144F127B000CBB9C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B8E396E144F127B000CBB9C /* QuartzCore.framework */; };
 		7B8E3978144F1322000CBB9C /* MyGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B8E3977144F1322000CBB9C /* MyGame.m */; };
+		9522B71521921052006AF8E8 /* player.m in Sources */ = {isa = PBXBuildFile; fileRef = 9522B71421921052006AF8E8 /* player.m */; };
 		954CE33B217A2ED3003F74E8 /* asteroid.png in Resources */ = {isa = PBXBuildFile; fileRef = 954CE33A217A2ED3003F74E8 /* asteroid.png */; };
 		954CE33D217A302D003F74E8 /* astronaut.png in Resources */ = {isa = PBXBuildFile; fileRef = 954CE33C217A302C003F74E8 /* astronaut.png */; };
 		954CE33F217A3035003F74E8 /* control_arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 954CE33E217A3035003F74E8 /* control_arrow.png */; };
@@ -54,6 +55,8 @@
 		7B8E396E144F127B000CBB9C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		7B8E3976144F1322000CBB9C /* MyGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyGame.h; sourceTree = "<group>"; };
 		7B8E3977144F1322000CBB9C /* MyGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyGame.m; sourceTree = "<group>"; };
+		9522B71321921051006AF8E8 /* player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = player.h; sourceTree = "<group>"; };
+		9522B71421921052006AF8E8 /* player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = player.m; sourceTree = "<group>"; };
 		954CE33A217A2ED3003F74E8 /* asteroid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = asteroid.png; path = "../../../../Google Drive/Studij/3-letnik/TINR/projekt/ assets/ png/asteroid.png"; sourceTree = "<group>"; };
 		954CE33C217A302C003F74E8 /* astronaut.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = astronaut.png; path = "../../../../Google Drive/Studij/3-letnik/TINR/projekt/ assets/ png/astronaut.png"; sourceTree = "<group>"; };
 		954CE33E217A3035003F74E8 /* control_arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = control_arrow.png; path = "../../../../Google Drive/Studij/3-letnik/TINR/projekt/ assets/ png/control_arrow.png"; sourceTree = "<group>"; };
@@ -164,6 +167,7 @@
 		7B8E3975144F1286000CBB9C /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				9522B71021920FD3006AF8E8 /* Game_Objects */,
 				95F6A0E4218C7C4500FF7522 /* AnimatedSprite.h */,
 				95F6A0E2218C7C4500FF7522 /* AnimatedSprite.m */,
 				95F6A0E3218C7C4500FF7522 /* AnimatedSpriteFrame.h */,
@@ -174,6 +178,15 @@
 				7B8E3977144F1322000CBB9C /* MyGame.m */,
 			);
 			name = Classes;
+			sourceTree = "<group>";
+		};
+		9522B71021920FD3006AF8E8 /* Game_Objects */ = {
+			isa = PBXGroup;
+			children = (
+				9522B71321921051006AF8E8 /* player.h */,
+				9522B71421921052006AF8E8 /* player.m */,
+			);
+			path = Game_Objects;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -246,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9522B71521921052006AF8E8 /* player.m in Sources */,
 				95F6A0E5218C7C4500FF7522 /* AnimatedSpriteFrame.m in Sources */,
 				7B8E394F144F11FF000CBB9C /* main.m in Sources */,
 				95F6A0E6218C7C4500FF7522 /* Sprite.m in Sources */,
